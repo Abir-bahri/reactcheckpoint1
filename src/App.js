@@ -3,21 +3,21 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+   
+      <div className = "form-box">
+        
+    <form>
+    <div className = "field1">
+            <label> customer info </label>
+            <input placeholder="Name"/>        
+            <input placeholder="Phone 000-000-0000"/>
+            <input placeholder="E-mail"/>
+            <textarea placeholder="Shipping Address"/>
+            <textarea placeholder="Physical location"/>
+            </div>
+
+            <button type = "submit" id= "submitBtn" className = "submitBtn"> submit</button>
+</form>
     </div>
   );
 }
